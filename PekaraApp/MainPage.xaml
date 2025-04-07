@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="PekaraApp.MainPage">
+
+    <ScrollView>
+        <StackLayout Padding="10">
+            <Label Text="Dobrodošli u Pekaru!"
+                   FontSize="24"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Pogledaj proizvode" Clicked="OnViewProductsClicked" />
+
+            <Button Text="Pogledaj košaricu" Clicked="OnViewCartClicked" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
